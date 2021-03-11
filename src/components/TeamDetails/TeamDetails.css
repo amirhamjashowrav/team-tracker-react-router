@@ -1,0 +1,65 @@
+.image-container{
+    position: relative;
+    overflow: hidden;
+}
+.img-fluid{
+    opacity: 0.4;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .centered img{
+      width: 150px;
+      height: 150px;
+  }
+  .team-detail{
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 1000px;
+    height: 250px;
+    margin: 20px;
+    background-color: #3a42ff;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .team-detail img{
+      padding-right: 60px;
+      margin-top: 25px;
+  }
+  .detail-box {
+      color: white;
+      padding: 30px;
+      padding-left: 60px;
+      margin-bottom: 30px;
+  }
+  .img-box{
+      width: 400px;
+      height: 200px;
+      border-radius: 10px;
+      float: right;
+  }
+  .icon a{
+    font-size: 70px;
+    margin: 50px;
+}
+.icon-fb{
+    color: #3b5998;
+}
+.icon-tw{
+    color: #00acee;
+}
+.icon-yt{
+    color: #FF0000;
+}
+
+
+  @media screen and (max-width: 600px) {
+      .team-detail{
+        width: 100%;
+        display: grid;
+      }
+  }
